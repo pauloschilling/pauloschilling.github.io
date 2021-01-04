@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>Google Calendar</title>
+    <link rel="icon" type="image/png" href="calendar.png" />
+    <link rel="apple-touch-icon" href="calendar.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="calendar.png">
+    <script type="text/javascript">
+        var params = new URLSearchParams(window.location.search);
+        window.location = 'https://calendar.google.com/calendar/u/' + params.get('u') + '/r';
+    </script>
+</head>
+<body>
+</body>
+</html>
